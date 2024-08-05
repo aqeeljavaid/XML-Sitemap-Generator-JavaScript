@@ -4,7 +4,7 @@ import cheerio from 'cheerio';
 import { XMLBuilder } from 'fast-xml-parser';
 import PQueue from 'p-queue';
 
-const baseUrl = 'https://pediastan.com/tv/channel/green-tv-entertainment'; // Replace with your site URL
+const baseUrl = 'https://cordstones.com/'; // Replace with your site URL
 const visitedUrls = new Set();
 const urls = [];
 const queue = new PQueue({ concurrency: 5, interval: 200, intervalCap: 1 }); // Limit concurrency and rate
@@ -69,7 +69,7 @@ const crawl = async (url) => {
     const sitemap = builder.build(urlset);
 
     // Save the XML to a file
-    fs.writeFileSync('sitemap-green-tv.xml', sitemap, 'utf8');
+    fs.writeFileSync('sitemap-cst.xml', sitemap, 'utf8');
 
     console.log('Sitemap generated successfully!');
 })();
