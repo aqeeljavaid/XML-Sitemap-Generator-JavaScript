@@ -36,10 +36,6 @@ CLI command to create the XML file:
 ## sitemap.xml
 Add the XML file to your `/robots.txt`.
 
-Example line for the robots.txt:
-
-
-
 ## Credits
 
 XML Sitemap Generator is created by [Aqeel Javaid](https://www.linkedin.com/in/aqeeljavaid/). Released under the MIT license.
