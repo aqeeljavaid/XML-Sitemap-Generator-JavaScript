@@ -12,7 +12,7 @@ Sitemap format: [http://www.sitemaps.org/protocol.html](http://www.sitemaps.org/
  - Unlimited pages
 
 ## How to use
-Configure the crawler by modifying the `sitemap-generator.php` file
+Configure the crawler by modifying the `generateSitemap.js` file
  - Select URL to crawl
  - Select the file to which the sitemap will be saved
  - Select change frequency (always, daily, weekly, monthly, never, etc...)
