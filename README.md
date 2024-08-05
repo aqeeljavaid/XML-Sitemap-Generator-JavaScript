@@ -4,29 +4,27 @@ This is a simple and small script that I wrote quickly for myself to create a XM
 
 Sitemap format: [http://www.sitemaps.org/protocol.html](http://www.sitemaps.org/protocol.html)
 
-##Features
- - Actually crawls webpages like Google would
- - Generates seperate XML file which gets updated every time the script gets executed (Runnable via CRON)
- - Awesome for SEO
+## Features
+ - Actually crawls webpages
+ - Generates XML file which gets updated every time the script gets executed (Runnable via CRON)
+ - Best for SEO
  - Crawls faster
  - Unlimited pages
 
-## How to Usage
+## How to use
 Configure the crawler by modifying the `sitemap-generator.php` file
-    - Select URL to crawl
-    - Select the file to which the sitemap will be saved
-    - Select change frequency (always, daily, weekly, monthly, never, etc...)
-    - Choose priority (It is all relative so it may as well be 1)
+ - Select URL to crawl
+ - Select the file to which the sitemap will be saved
+ - Select change frequency (always, daily, weekly, monthly, never, etc...)
+ - Choose priority (It is all relative so it may as well be 1)
 
 Generate sitemap
-    - Either send a GET request to this script or simply point your browser
-    - A sitemap will be generated and saved
-    - Submit sitemap.xml to Google
-    - Setup a CRON Job to send web requests to this script every so often, this will keep the sitemap.xml file up to date
+ - Either send a GET request to this script or simply point your browser
+ - A sitemap will be generated and saved
+ - Submit sitemap.xml to Google
+ - Setup a CRON Job to send web requests to this script every so often, this will keep the sitemap.xml file up to date
 
-The script can be started as CLI script or as Website. CLI is the prefered way to start this script.
-
-CLI scripts are started from the command line, can be used with CRON and so on. You start it with the php program.
+The script will be started as CLI script.
 
 CLI command to create the XML file:
 
@@ -48,8 +46,8 @@ XML Sitemap Generator is created by [Aqeel Javaid](https://www.linkedin.com/in/a
 
 Included scripts:
 
- - [fs](http://simplehtmldom.sourceforge.net/) - A HTML DOM parser written in PHP5+ let you manipulate HTML in a very easy way!.
- - [axios](http://simplehtmldom.sourceforge.net/) - A HTML DOM parser written in PHP5+ let you manipulate HTML in a very easy way!.
- - [cheerio](http://simplehtmldom.sourceforge.net/) - A HTML DOM parser written in PHP5+ let you manipulate HTML in a very easy way!.
- - [fast-xml-parser](http://simplehtmldom.sourceforge.net/) - A HTML DOM parser written in PHP5+ let you manipulate HTML in a very easy way!.
- - [p-queue](http://simplehtmldom.sourceforge.net/) - A HTML DOM parser written in PHP5+ let you manipulate HTML in a very easy way!.
+ - [fs](#) - Provides functions to interact with the file system.
+ - [axios](https://github.com/axios/axios) - A promise-based HTTP client for making requests to external servers.
+ - [cheerio](https://github.com/cheeriojs/cheerio) - A library for parsing and manipulating HTML and XML in a jQuery-like syntax.
+ - [fast-xml-parser](https://github.com/NaturalIntelligence/fast-xml-parser) - Parses XML data into JavaScript objects quickly.
+ - [p-queue](https://github.com/sindresorhus/p-queue) - Implements promise-based task queueing with concurrency control.
