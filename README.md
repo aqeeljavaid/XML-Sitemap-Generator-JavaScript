@@ -29,7 +29,7 @@ The script will be started as CLI script.
 CLI command to create the XML file:
 
 ```
-   node sitemap-generator.js
+   node generateSitemap.js
 ```
 
 
